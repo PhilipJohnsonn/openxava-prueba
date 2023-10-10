@@ -24,7 +24,7 @@
     
     <controller name="Producto">
     	<extends controller="Typical"/>
-    	<action name="generatePdf" mode="detail"
+    	<action name="generarDetallePDF" mode="detail"
     		class="com.philip.prueba.actions.GenerarDetalleProductoPdf"
     		takes-long="true"
     		icon="file-pdf" image="pdf.gif" keystroke="Control Alt P">

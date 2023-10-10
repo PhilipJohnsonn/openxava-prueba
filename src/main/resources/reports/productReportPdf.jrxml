@@ -84,7 +84,7 @@
 						<jr:columnHeader style="Table 1_CH" height="30" rowSpan="1">
 							<staticText>
 								<reportElement x="0" y="0" width="93" height="30" uuid="acd47297-891e-4d61-924b-b293f7d96224"/>
-								<textElement textAlignment="Center">
+								<textElement textAlignment="Center" verticalAlignment="Middle">
 									<font isBold="true"/>
 								</textElement>
 								<text><![CDATA[Nro.]]></text>
@@ -93,7 +93,7 @@
 						<jr:detailCell style="Table 1_TD" height="30">
 							<textField>
 								<reportElement x="0" y="0" width="93" height="30" uuid="06460895-efba-4669-983c-9b0201b3b7fc"/>
-								<textElement textAlignment="Right"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
 								<textFieldExpression><![CDATA[$F{numero}]]></textFieldExpression>
 							</textField>
 						</jr:detailCell>
@@ -103,7 +103,7 @@
 						<jr:columnHeader style="Table 1_CH" height="30" rowSpan="1">
 							<staticText>
 								<reportElement x="0" y="0" width="93" height="30" uuid="aa9a1f55-f364-49b6-acc4-406ccbb0c190"/>
-								<textElement textAlignment="Center">
+								<textElement textAlignment="Center" verticalAlignment="Middle">
 									<font isBold="true"/>
 								</textElement>
 								<text><![CDATA[Descripcion]]></text>
@@ -112,7 +112,7 @@
 						<jr:detailCell style="Table 1_TD" height="30">
 							<textField>
 								<reportElement x="0" y="0" width="93" height="30" uuid="0f59e2ae-aa8b-466e-8290-3c55a6db1cf4"/>
-								<textElement textAlignment="Center"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
 								<textFieldExpression><![CDATA[$F{descripcion}]]></textFieldExpression>
 							</textField>
 						</jr:detailCell>
@@ -122,7 +122,7 @@
 						<jr:columnHeader style="Table 1_CH" height="30" rowSpan="1">
 							<staticText>
 								<reportElement x="0" y="0" width="93" height="30" uuid="fd4846de-2e97-415a-987b-a58ad7de5c9a"/>
-								<textElement textAlignment="Center">
+								<textElement textAlignment="Center" verticalAlignment="Middle">
 									<font isBold="true"/>
 								</textElement>
 								<text><![CDATA[Categoria]]></text>
@@ -131,7 +131,7 @@
 						<jr:detailCell style="Table 1_TD" height="30">
 							<textField>
 								<reportElement x="0" y="0" width="93" height="30" uuid="e219b993-daf5-4fb4-9e34-7b9694ac7e08"/>
-								<textElement textAlignment="Center"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
 								<textFieldExpression><![CDATA[$F{categoriaString}]]></textFieldExpression>
 							</textField>
 						</jr:detailCell>
@@ -141,7 +141,7 @@
 						<jr:columnHeader style="Table 1_CH" height="30" rowSpan="1">
 							<staticText>
 								<reportElement x="0" y="0" width="92" height="30" uuid="ad2a4712-6d21-4ff7-89de-e8c113651b78"/>
-								<textElement textAlignment="Center">
+								<textElement textAlignment="Center" verticalAlignment="Middle">
 									<font isBold="true"/>
 								</textElement>
 								<text><![CDATA[Precio]]></text>
@@ -150,7 +150,7 @@
 						<jr:detailCell style="Table 1_TD" height="30">
 							<textField>
 								<reportElement x="0" y="0" width="92" height="30" uuid="dca50dc6-75a1-4db0-bdaf-f4f6dea6c2c5"/>
-								<textElement textAlignment="Right"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
 								<textFieldExpression><![CDATA[$F{precio}+"€"]]></textFieldExpression>
 							</textField>
 						</jr:detailCell>
@@ -160,7 +160,7 @@
 						<jr:columnHeader style="Table 1_CH" height="30" rowSpan="1">
 							<staticText>
 								<reportElement x="0" y="0" width="92" height="30" uuid="d8381d29-ee56-41bb-ad1f-376ee6add0a4"/>
-								<textElement textAlignment="Center">
+								<textElement textAlignment="Center" verticalAlignment="Middle">
 									<font isBold="true"/>
 								</textElement>
 								<text><![CDATA[Imagen]]></text>
@@ -169,7 +169,7 @@
 						<jr:detailCell style="Table 1_TD" height="30">
 							<textField>
 								<reportElement x="0" y="0" width="92" height="30" uuid="f64d68ac-afe9-4f01-9ecf-c2332f612049"/>
-								<textElement textAlignment="Center"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
 								<textFieldExpression><![CDATA[$F{fotos}]]></textFieldExpression>
 							</textField>
 						</jr:detailCell>
@@ -179,7 +179,7 @@
 						<jr:columnHeader style="Table 1_CH" height="30" rowSpan="1">
 							<staticText>
 								<reportElement x="0" y="0" width="92" height="30" uuid="ccfa8ce3-432b-4be4-870f-70fda6b97a39"/>
-								<textElement textAlignment="Center">
+								<textElement textAlignment="Center" verticalAlignment="Middle">
 									<font isBold="true"/>
 								</textElement>
 								<text><![CDATA[Observaciones]]></text>
@@ -188,7 +188,7 @@
 						<jr:detailCell style="Table 1_TD" height="30">
 							<textField>
 								<reportElement x="0" y="0" width="92" height="30" uuid="38b8bf77-d28e-457b-bfc8-dcf97a2c6ffc"/>
-								<textElement textAlignment="Center"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
 								<textFieldExpression><![CDATA[$F{observaciones}]]></textFieldExpression>
 							</textField>
 						</jr:detailCell>
@@ -216,7 +216,7 @@
 			</textField>
 			<textField evaluationTime="Report">
 				<reportElement x="455" y="0" width="100" height="30" uuid="1c02feec-113f-4f21-adb7-5240889f2ab1"/>
-				<textElement textAlignment="Left"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[" of " + $V{PAGE_NUMBER}]]></textFieldExpression>
 			</textField>
 		</band>
